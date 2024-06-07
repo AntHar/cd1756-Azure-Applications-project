@@ -6,7 +6,7 @@ class Config(object):
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'secret-key'
 
     BLOB_ACCOUNT = 'stanhacms'
-    BLOB_STORAGE_KEY = 'git@github.com:AntHar/cd1756-Azure-Applications-project.git'
+    BLOB_STORAGE_KEY = 'nsMqQkDh9+ITPxj4dSAYVGUwMtl64enCarJTjv6IV2ZrFz6EFgT/JVOnCUm/aCDzYvvNH7CrL9Y3+ASt5ldTig=='
     BLOB_CONTAINER = 'cms-images'
 
     SQL_SERVER = 'sql-cloud-developer-azure-cms-server-anha.database.windows.net'
